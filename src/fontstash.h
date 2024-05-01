@@ -433,7 +433,7 @@ struct FONScontext
 	FONSatlas* atlas;
 	int cfonts;
 	int nfonts;
-	float verts[FONS_VERTEX_COUNT*2];
+	float verts[FONS_VERTEX_COUNT*3];
 	float tcoords[FONS_VERTEX_COUNT*2];
 	unsigned int colors[FONS_VERTEX_COUNT];
 	int nverts;
